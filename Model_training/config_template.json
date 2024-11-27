@@ -1,0 +1,19 @@
+{
+  "dataset_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Data",
+  "labels_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Data/Labels",
+  "test_vids_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Data/Videos",
+  "results_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Results",
+  "raw_label_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Data/labels.json",
+  "experiments_path": "C:/Users/jouiniahme/OneDrive - Efrei/Bureau/Tennis/Project src/Segminton_on_Tennis/Experiments",
+  "analytics_path": "/path/to/analytics_folder",
+  "references_path": "/path/to/court_references_folder",
+  "weights_path": "/path/to/analytics_weights_folder",
+  "interface_path": "/path/to/interface_assets_folder",
+  "shuttle_path": "/path/to/shuttle_training_folder",
+  "test_vid_ids": [1,2],
+  "screenshot_rate": 1500,
+  "overlay_opacity": 0.8,
+  "mail": "your.mail@with.mailjet",
+  "mailjet_api_public_key": "",
+  "mailjet_api_secret_key": ""
+}

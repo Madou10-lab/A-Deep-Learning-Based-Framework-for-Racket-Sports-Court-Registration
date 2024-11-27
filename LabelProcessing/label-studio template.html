@@ -1,0 +1,42 @@
+<View>
+  
+  <Image name="tenniscourt" value="$image" zoom="true"/>
+    <PolygonLabels name="zones" toName="tenniscourt" strokeWidth="3" pointSize="small" opacity="0.9">
+    <Label value="00-Full court" background="#ffffff"/>
+      <Label value="01-Front No man's land" background="#ff8080"/>
+      <Label value="02-Left doubles alley" background="#ffcc80"/>
+      <Label value="03-Ad court" background="#ffff80"/>
+      <Label value="04-Deuce court" background="#80ff80"/>
+      <Label value="05-Back No man's land" background="#80ffe5"/>
+      <Label value="06-Right doubles alley" background="#80bfff"/>
+      <Label value="07-Net" background="#aa80ff"/></PolygonLabels>
+  
+      <Header value="Choose text sentiment"/>
+      <Text name="p1" value="">Court exist?</Text>
+      <Choices name="exist" toName="tenniscourt" choice="single" showInLine="true">
+        <Choice value="Yes" selected="true"/>
+        <Choice value="No"/>
+      </Choices>
+    <Text name="p2" value="">Court type:</Text>
+      <Choices name="type" toName="tenniscourt" choice="single" showInLine="true">
+        <Choice value="annexe" selected="true"/>
+        <Choice value="principale"/>
+      </Choices>
+    <Text name="p3" value="">Shadow</Text>
+      <Choices name="Shadow" toName="tenniscourt" choice="single" showInLine="true">
+        <Choice value="Yes"/>
+        <Choice value="No" selected="true"/>
+      </Choices>
+  
+    <Text name="p4" value="">Number of players?</Text>
+    <Number name="players" toName="tenniscourt" max="5" min="0" defaultValue="2"/>
+  
+  
+    <Text name="p7" value="">Brightness:</Text>
+      <Choices name="Brightness" toName="tenniscourt" choice="single" showInLine="true">
+        <Choice value="Low" />
+        <Choice value="Normal" selected="true"/>
+        <Choice value="High"/>
+      </Choices>
+  
+  </View>
